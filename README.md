@@ -1,4 +1,4 @@
-ansible-common-debian
+ansible_common_debian
 =========
 
 An ansible role with common tasks that I perform on my debian servers
@@ -23,7 +23,7 @@ Example Playbook
 ```
 - hosts: servers
   roles:
-      - lebergarrett.ansible-common-debian
+      - lebergarrett.ansible_common_debian
 ```
 License
 -------
