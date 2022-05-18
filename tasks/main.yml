@@ -1,0 +1,9 @@
+---
+- name: Install common packages
+  ansible.builtin.apt:
+    name:
+      - qemu-guest-agent
+      - cloud-initramfs-growroot
+
+- name: Reboot the instance
+  ansible.builtin.reboot:
