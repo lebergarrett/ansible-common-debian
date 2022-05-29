@@ -4,6 +4,4 @@
     name:
       - qemu-guest-agent
       - cloud-initramfs-growroot
-
-- name: Reboot the instance
-  ansible.builtin.reboot:
+  notify: reboot instance
