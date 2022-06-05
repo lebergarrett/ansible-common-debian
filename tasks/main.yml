@@ -2,6 +2,7 @@
 - name: Install common packages
   ansible.builtin.apt:
     name:
-      - qemu-guest-agent
       - cloud-initramfs-growroot
+      - qemu-guest-agent
+      - unzip
   notify: reboot instance
