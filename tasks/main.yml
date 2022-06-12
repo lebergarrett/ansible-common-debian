@@ -3,6 +3,7 @@
   ansible.builtin.apt:
     name:
       - cloud-initramfs-growroot
+      - htop
       - qemu-guest-agent
       - unzip
   notify: reboot instance
